@@ -1,0 +1,28 @@
+{
+  "name": "typescript-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "build": "truffle migrate && soltsice ./build/contracts ./types && webpack"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.107",
+    "@types/node": "^9.6.5",
+    "@types/jquery": "^3.3.1",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "soltsice": "^0.11.4"
+  },
+  "author": "",
+  "license": "ISC"
+}

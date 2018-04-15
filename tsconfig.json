@@ -1,0 +1,14 @@
+{
+    "version" : "2.8.1",
+    "compilerOptions" : {
+        "lib": ["es6", "dom", "esnext"],
+        "target" : "es6",
+        "module": "CommonJS",
+        "allowJs": false
+    },
+    "exclude" : [
+        "node_modules",
+        "build",
+        "dist"
+    ]
+}
